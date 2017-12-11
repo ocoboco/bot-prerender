@@ -2,9 +2,9 @@
   "name": "bot-prerender",
   "version": "1.0.0",
   "description": "SPA prerender middleware with caching",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,11 @@
     "cache"
   ],
   "peerDependencies": {
-    "node-cache-manager": "2.x"
+    "cache-manager": "2.x"
+  },
+  "devDependencies": {
+    "cache-manager": "2.6.0",
+    "jest": "21.2.1"
   },
   "engines": {
     "node": ">=7.6"
