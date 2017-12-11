@@ -1,6 +1,6 @@
 {
   "name": "bot-prerender",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SPA prerender middleware with caching",
   "main": "lib/index.js",
   "scripts": {
@@ -20,7 +20,6 @@
     "cache-manager": "2.x"
   },
   "devDependencies": {
-    "cache-manager": "2.6.0",
     "jest": "21.2.1"
   },
   "engines": {
