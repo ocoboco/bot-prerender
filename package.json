@@ -4,7 +4,7 @@
   "description": "SPA prerender middleware with caching",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
